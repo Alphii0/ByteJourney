@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Modelagem\ imagem1.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do corpo */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-attachment: fixed; /* Torna a imagem fixa enquanto a página é rolada */
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.7); /* Azul transparente */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 50px;
+}
+
+.menu-toggle {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    transition: transform 0.3s ease;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 15;
+}
+
+.menu ul li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin-top: 80px; /* Ajuste para evitar sobreposição com o cabeçalho */
+}
