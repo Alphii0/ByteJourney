@@ -1,46 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Salas Infomáticas com Containers</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <div class="menu-toggle" onclick="toggleMenu()"><span>&#9776</span>Detalhes</div>
+        <nav class="menu">
             <ul>
-                <li><a href="contact.html">Contacte-nos</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><li><i class="fas fa-home"></i> <a href="#inicio">Início</a></li>
+                <li><i class="fas fa-file-alt"></i><a href="#Pap">  PAP</a></li>
+                <li><i class="fas fa-cogs"></i><a href="#projeto1">   Desenvolvimento do Projeto 1</a></li>
+                <li><i class="fas fa-cogs"></i><a href="#projeto2">  Desenvolvimento do Projeto 2</a></li>
+                <li><i class="fas fa-check-circle"></i><a href="#conclusao"> Conclusão</a></li>
+                <li><i class="fas fa-hands-helping"></i><a href="#voluntariado"> Voluntariado</a></li>
+                <li><i class="fas fa-info-circle"></i><a href="#sobre-nos">  Sobre Nós</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="project">
-            <h1>Projeto de Salas Infomáticas com Containers</h1>
-            <p>Especificações do Container e Hardware será aqui.</p>
+        <section id="banner">
+            <h1>Prova de Aptidão Profissional
+            </h1>
+            <img src="PAP.png" alt="Imagem Transparente">
         </section>
 
-        <section id="gallery">
-            <h2>Galeria de Imagens</h2>
-            <!-- Adicione suas imagens aqui -->
-        </section>
+        <section id="nosso-projeto">
+            <div class="overlay">
+            <div class="text">
+                <h2>O Nosso Projeto</h2>
+                <p>Bem-vindo ao nosso projeto inovador de criação de salas informáticas itinerantes, uma iniciativa que visa levar tecnologia e conhecimento a comunidades ao redor do mundo. Este site é o seu portal para explorar nossa jornada e descobrir como estamos transformando a educação e a acessibilidade digital por meio de soluções inovadoras.
 
-        <section id="logistics">
-            <h2>Logística e Planejamento do Projeto</h2>
-            <!-- Detalhes do planejamento e logística -->
+                    
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="doctor-research-chemical-observes-microscope-analysis-1457639-pxhere.com.jpg" alt="Imagem 1">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            </div>
         </section>
+        <section id="visao">
+            <div class="flex-container">
+            <div class="text">
+                <h2>Visão</h2>
+                <p>Nossa missão é simples: utilizar a tecnologia para capacitar pessoas em todos os cantos do planeta. Através da criação de salas informáticas móveis, utilizando containers como base, estamos levando a infraestrutura necessária para a revolução digital diretamente às comunidades que mais precisam.
 
-        <section id="volunteer">
+                    Ao longo deste site, você encontrará detalhes sobre nosso processo de criação, desde a aplicação da tecnologia 3D no design das salas até o planejamento meticuloso do hardware e software utilizados. Além disso, exploraremos a logística envolvida em nosso ambicioso projeto de levar essas salas informáticas a diferentes partes do mundo.
+                    
+                    </p>
+            </div>
+            <div class="image-container">
+                <img src="doctor-research-chemical-observes-microscope-analysis-1457639-pxhere.com.jpg" alt="Imagem 1">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            </div>
+        </section>
+        <section id="relembrar">
+            <div class="flex-container">
+            <div class="text">
+                <h2>Relembrando</h2>
+                <p>É importante destacar que este trabalho faz parte de nossa Prova de Aptidão Profissional (PAP), uma oportunidade de colocarmos em prática nossos conhecimentos e habilidades em um projeto significativo e impactante. Estamos empolgados em compartilhar nossos progressos e descobertas com você, e esperamos que esta jornada inspire outros a se envolverem na promoção da inclusão digital global.
+                    
+                    </p>
+            </div>
+            <div class="image-container">
+                <img src="doctor-research-chemical-observes-microscope-analysis-1457639-pxhere.com.jpg" alt="Imagem 1">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            </div>
+        </section>
+        <section id="voluntariado">
             <h2>Seja um Voluntário</h2>
-            <p>Participe do nosso projeto como voluntário. <a href="formulario.html">Preencha o formulário</a>.</p>
+            <p>Preencha o formulário abaixo para se candidatar a ser voluntário no projeto e participar do mesmo:</p>
+            <a href="formulario.html"><button>Formulário de Voluntariado</button></a>
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2024 Projeto de Salas Infomáticas com Containers</p>
+        <p>&copy; 2024 Projeto PAP- 12D Alunos de Gestão e Instalação de Redes
+        </p>
+        <a href="#Sobre Nós">Sobre Nós</a>
+        <a href="#Inicio">Inicio</a>
+
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
