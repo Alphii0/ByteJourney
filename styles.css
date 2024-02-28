@@ -75,8 +75,10 @@ main {
 
 #visao, #relembrar {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:center
+    justify-content:center;
+    text-align: center;
 }
 
 .text {
@@ -85,38 +87,15 @@ main {
     text-justify:auto;
     text-align: justify;
     text-decoration-color: #ffffff;
-}
-
-.overlay {
-    position: relative;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.overlay::after {
-    content: "";
-    position:relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(83, 136, 193, 0.7); /* Cor de fundo com transparência */
+    background-color: rgba(83, 136, 193, 0.7);
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
-.text {
-    position: relative; /* Para garantir que o texto fique sobre a overlay */
-    z-index: 1; /* Para manter o texto na frente da overlay */
-    color: rgb(255, 255, 255); /* Cor do texto */
-    font-size: larger;
-    align-items: left;
-    text-justify: distribute-all-lines;
-}
 
 .image-container {
-    position:relative;
-    z-index: 1;
+    max-width: 100%;
 }
 
 .image-container img {
@@ -136,7 +115,6 @@ main {
     align-items: center;
     justify-content:center
 }
-
 
 .text {
     text-align:justify;
@@ -197,6 +175,11 @@ main {
     display: flex;
     position: relative;
     margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
 }
 
 button {
@@ -206,10 +189,16 @@ button {
     border:#007bff;
     cursor: pointer;
     border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    display: block;
 }
+
 
 button:hover {
     background-color: #0056b3;
+    display: flex;
 }
 
 footer {
