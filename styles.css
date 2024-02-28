@@ -187,12 +187,17 @@ main {
     margin-top: 10;
 }
 
-#voluntariado {
+.voluntariado {
     display: flex;
-    align-items: center;
-    justify-content:center
+    position: relative;
+    margin-top: 30px;
 }
 
+.opiniao {
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+}
 
 button {
     padding: 10px 20px;
