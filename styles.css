@@ -166,6 +166,17 @@ main {
     margin-top: 10;
 }
 
+#anuncio {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(0, 123, 255, 0.7);
+}
+
 .voluntariado {
     display: flex;
     position: relative;
@@ -181,6 +192,7 @@ main {
     border-radius: 10px;
     text-align: center;
     font-style: normal;
+    justify-content: center;
 }
 
 button {
