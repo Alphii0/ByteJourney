@@ -84,8 +84,6 @@ main {
 .text {
     text-align: left;
     align-items: flex-start;
-    text-justify:auto;
-    text-align: justify;
     text-decoration-color: #ffffff;
     background-color: rgba(83, 136, 193, 0.7);
     padding: 20px;
@@ -95,7 +93,7 @@ main {
     margin-top: 30px;
     margin-bottom: 10px;
     letter-spacing: -1px;
-    word-spacing: -1px;
+    word-spacing: -1.5px;
 }
 
 
