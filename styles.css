@@ -147,7 +147,6 @@ main {
     color: rgb(0, 0, 0); /* Cor do texto */
     font-size: larger;
     align-items: left;
-    text-justify: distribute-all-lines;
 }
 
 
