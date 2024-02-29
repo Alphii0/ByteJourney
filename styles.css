@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff;
     color: #000;
     margin: 0;
@@ -88,9 +88,12 @@ main {
     text-align: justify;
     text-decoration-color: #ffffff;
     background-color: rgba(83, 136, 193, 0.7);
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
+    font-size: larger;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 
