@@ -67,7 +67,7 @@ main {
 #representacao3d {
     display: flex;
     justify-content:center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .posicao, .text {
