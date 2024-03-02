@@ -64,3 +64,18 @@ main {
     margin-top: 80px; /* Ajuste para evitar sobreposição com o cabeçalho */
 }
 
+#representacao3d {
+    display: flex;
+    justify-content:center;
+}
+
+.posicao, .text {
+   flex: 1;
+   padding: 20px;
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+}
