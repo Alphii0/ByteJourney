@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    background-image: url(Modelagem\ imagem1.png);
+    background-image: url(.//Imagens/Modelagem\ imagem1.png);
     background-size: cover; /* Ajusta a imagem para cobrir toda a área do corpo */
     background-repeat: no-repeat; /* Evita repetir a imagem */
     background-attachment: fixed; /* Torna a imagem fixa enquanto a página é rolada */
