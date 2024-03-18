@@ -12,3 +12,14 @@ document.addEventListener('click', function(event) {
         menu.classList.remove('active');
     }
 });
+
+var video = document.getElementById('video1'); // Seleciona o elemento de vídeo
+
+
+video.addEventListener('click', function() {
+    if (video.paused) {
+        video.play();
+    } else {
+         video.pause(); 
+    }
+});

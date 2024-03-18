@@ -80,3 +80,91 @@ main {
     justify-content: center;
     margin-top: 250px;
 }
+
+#hardware1 {
+    display:contents;
+}
+
+.introducao {
+    margin-top: 60px;
+    display: flex;
+    text-align: left;
+    font-size: large;
+    align-items: center;
+}
+
+
+.imagem1 img {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.7);
+    align-items: center;
+}
+
+#hardware2 {
+    display:flex; 
+    margin-top: 20px;
+    text-align: center; 
+    vertical-align: middle;
+    height: 55vh;
+    font-size:larger;
+}
+
+.explicacoes{
+    flex: 1;
+    margin: 5 15px;
+    align-content: center;
+    text-align: center;
+    background-color:rgba(168, 197, 226, 0.7) ;
+    transition: all 0.4s ease;
+}
+
+.explicacoes:hover {
+    background-color: rgba(0, 123, 255, 0.7);
+    width: 260px;
+    border-radius: 10px;
+}
+
+.titulo {
+    text-align:center;
+    font-size: larger;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+#meuvideo {
+    width: 70%;
+    margin-top: 10px;
+    
+}
+
+#video1{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.shapr3d {
+    display: flex;
+    margin: 5 11px;
+    margin-bottom: 30px;
+    align-content: center;
+    text-align: center;
+    background-color:rgba(168, 197, 226, 0.7) ;
+    font-size: larger;
+    margin: 50px;
+    border-radius: 10px;
+}
