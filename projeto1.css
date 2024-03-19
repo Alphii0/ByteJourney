@@ -116,8 +116,7 @@ button {
     margin-top: 20px;
     text-align: center; 
     vertical-align: middle;
-    height: 55vh;
-    font-size:larger;
+    height: auto;
 }
 
 .explicacoes{
@@ -127,6 +126,7 @@ button {
     text-align: center;
     background-color:rgba(168, 197, 226, 0.7) ;
     transition: all 0.4s ease;
+    font-size: larger;
 }
 
 .explicacoes:hover {
@@ -167,4 +167,102 @@ button {
     font-size: larger;
     margin: 50px;
     border-radius: 10px;
+}
+
+.Funcionalidades{
+    flex: 1;
+    margin: 5 15px;
+    align-content: center;
+    text-align: center;
+    background-color:rgba(168, 197, 226, 0.7) ;
+    transition: all 0.4s ease;
+    font-size: larger;
+}
+
+.Funcionalidades:hover {
+    background-color: rgba(0, 123, 255, 0.7);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    color:#fff
+}
+
+.exemplo{
+    display:inline-block;
+    text-align: center;
+    font-size: large;
+    margin-top: 60;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+
+
+.imagem2 img {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    align-content: center;
+}
+
+footer {
+     
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-bottom: -30px;
+}
+
+.componentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.componente {
+    text-align: center;
+}
+
+.imagem {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.descricao {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.componente:hover .descricao {
+    display: block;
+}
+
+.componente:hover .imagem {
+    transform: scale(1.1);
 }
