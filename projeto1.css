@@ -228,6 +228,11 @@ footer {
     padding: 20px;
 }
 
+.componente img{
+    height: 200px;
+    width: 200px;
+}
+
 .componente {
     text-align: center;
 }
@@ -265,4 +270,126 @@ footer {
 
 .componente:hover .imagem {
     transform: scale(1.1);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.texto2 {
+    flex: 1;
+    padding: 20px;
+    font-size: large;
+}
+
+.imagem4 {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagem4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 22px; 
+    margin-top: 80px;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgba(0, 123, 255, 0.7);;
+    border-radius: 12px;
+}
+
+.container:hover{
+    background-color: rgba(220, 220, 220, 0.7);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    transform: scale(0.9);
+    padding: auto;
+}
+
+.item {
+    text-align:center;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+
+.primaria {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    width: 50%;
+    font-size: larger;
+}
+
+.secundaria {
+    text-align: center;
+    font-size: larger;
+    margin-top: 60px;
+    margin-bottom: -45px;
+}
+
+.adendo {
+    background-color: #f0f0f0;
+    border-left: 4px solid #FFA500;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size:medium;
+    border-radius: 5px;
+}
+
+.adendo h3 {
+    color: #FFA500;
+    margin-top: 0;
+}
+
+.desafios-logistica h3{
+    color: #FFA500;
+    margin-top: 0;
+}
+
+.desafios-logistica {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #FFA500;
+    font-size:medium;
+    margin-bottom: 30px;
+}
+
+.desafios-logistica ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.desafios-logistica li {
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.desafios-logistica li:before {
+    content: "\2022";
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
 }
