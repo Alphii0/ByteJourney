@@ -393,3 +393,140 @@ footer {
     position: absolute;
     left: -20px;
 }
+
+.funcionamento-logistica{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-logi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.tres-topicos {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px; 
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 30px;
+    font-size: medium;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    transform: scale(1.0);
+}
+
+.tres-topicos:hover{
+    background-color: #f9f9f9;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    transform: scale(1.0);
+    padding: auto;
+}
+
+
+
+.selecao{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 400pxpx; 
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 30px;
+    font-size: medium;
+}
+
+.selecao h3 {
+    text-align:center;
+    margin-bottom: 1130px;
+    font-size: larger;
+}
+.selecao img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+
+
+.tarefas{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px; 
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 30px;
+    font-size: medium;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    transform: scale(1.0);
+    border-radius: 10px;
+}
+
+.tarefas:hover{
+    background-color: #f9f9f9;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    padding: auto;
+}
+
+.titulomaterias{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+main {
+    padding: 20px;
+}
+
+.materia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transform: scale(1.0);
+}
+
+.materia:hover{
+    background-color: #f9f9f9;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    padding: auto;
+}
+
+.materia i {
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+.materia div {
+    flex: 1;
+}
+
+.materia h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.materia p {
+    font-size: 16px;
+    color: #000000;
+}
