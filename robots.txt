@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alphii0.github.io/ByteJourney/index.html/sitemap.xml
